@@ -1,6 +1,6 @@
 # merge-jpgs-to-pdf
 
-Simple, reliable script to merge `.jpg`/`.jpeg` images into a single PDF using [Pillow].  
+Simple, reliable script to merge `.jpg`/`.jpeg` images into a single PDF. 
 Designed to be copy‑paste friendly and easy to run from the command line.
 
 > GitHub home: https://github.com/AygunVarol/merge-jpgs-to-pdf
@@ -55,10 +55,6 @@ If you need a different order, rename files (e.g., prefix with `001_`, `002_`, �
 - **No JPG files found**: make sure your files end with `.jpg` or `.jpeg` (case‑insensitive).
 - **Very large image sets**: Pillow loads all images to save them into a single PDF. If you're merging thousands of pages on a low‑memory system, consider the alternative below.
 
-## Alternative (memory‑friendly)
-
-If you need a more memory‑efficient solution that writes images directly to a PDF stream, try [`img2pdf`] instead:
-
 ```bash
 pip install img2pdf
 ```
@@ -70,9 +66,3 @@ A companion CLI using `img2pdf` is trivial; see the commented note in the script
 MIT © 2025 Aygun Varol
 
 ---
-
-**Links**  
-- [Pillow] – actively maintained PIL fork
-
-[Pillow]: https://python-pillow.org
-[img2pdf]: https://pypi.org/project/img2pdf/
