@@ -56,6 +56,6 @@ If you need a different order, rename files (e.g., prefix with `001_`, `002_`, �
 
 ## License
 
-MIT © 2025 Aygun Varol
+MIT © 2025 Aygün Varol
 
 ---
