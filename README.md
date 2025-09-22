@@ -53,13 +53,6 @@ If you need a different order, rename files (e.g., prefix with `001_`, `002_`, �
 ## Troubleshooting
 
 - **No JPG files found**: make sure your files end with `.jpg` or `.jpeg` (case‑insensitive).
-- **Very large image sets**: Pillow loads all images to save them into a single PDF. If you're merging thousands of pages on a low‑memory system, consider the alternative below.
-
-```bash
-pip install img2pdf
-```
-
-A companion CLI using `img2pdf` is trivial; see the commented note in the script and this repo’s Issues for tips.
 
 ## License
 
