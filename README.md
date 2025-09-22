@@ -1,4 +1,4 @@
-# merge-jpgs-to-pdf
+# Merge JPGs to PDF
 
 Simple, reliable script to merge `.jpg`/`.jpeg` images into a single PDF. 
 Designed to be copy‑paste friendly and easy to run from the command line.
